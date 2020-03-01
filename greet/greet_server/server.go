@@ -26,3 +26,5 @@ func main() {
 		log.Fatalf("failed to serve: %v", err)
 	}
 }
+
+//protoc .\greet\greetpb\greet.proto --go_out=plugins=grpc:.
